@@ -1,0 +1,15 @@
+name: FishNett
+version: 1.0
+description: The best fishing plugin for salad people
+author: [Keiaxx]
+main: com.keinett.fishnett.FishNett
+commands:
+  fishnett:
+    description: Fishnett base command
+    aliases: [fn]
+    usage: /<fishnett/fn> <params>
+
+permissions:
+  fishnett.basic:
+    description: Allows use of basic commands of plugin. Defaults to all
+    default: true
